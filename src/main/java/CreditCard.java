@@ -14,6 +14,6 @@ public abstract class CreditCard {
     }
 
     public void pay(int amount) {
-
+        this.debt = this.debt + amount;
     }
 }

@@ -1,4 +1,4 @@
-public class CreditCard {
+public abstract class CreditCard {
     private int debt;
 
     public CreditCard(int debt) {
